@@ -1,0 +1,6 @@
+openai_connection.settings_form:
+  title: OpenAI Connection
+  description: Configure OpenAI Connection.
+  parent: system.admin_config_system
+  route_name: openai_connection.settings_form
+  weight: 10

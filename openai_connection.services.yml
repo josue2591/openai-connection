@@ -1,0 +1,4 @@
+services:
+  openai_connection.openai_service:
+    class: Drupal\openai_connection\Service\OpenAIService
+    arguments: ['@config.factory']

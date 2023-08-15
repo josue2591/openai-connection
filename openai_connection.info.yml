@@ -1,0 +1,6 @@
+name: OpenAI Connection
+type: module
+description: This module makes a simple integration with OpenAI.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10

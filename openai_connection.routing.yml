@@ -1,0 +1,7 @@
+openai_connection.settings_form:
+  path: '/admin/config/system/openai-connection'
+  defaults:
+    _title: 'OpenAI Connection settings'
+    _form: 'Drupal\openai_connection\Form\SettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
